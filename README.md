@@ -55,5 +55,6 @@ Ziel dieser Konfiguration ist es, eine stabile und isolierte Netzwerkstruktur zu
 
 Diese klar definierte Netzwerkarchitektur bildet die Grundlage für weiterführende Sicherheitsmaßnahmen, automatisierte Verwaltung und die feingranulare Analyse des Netzwerkverhaltens innerhalb der virtualisierten Umgebung.
 
-### 3. ![Netzwerktopologie](Topologie.png)
+### 3. Netzwerktopologie
+![Netzwerktopologie](Topologie.png)
 
