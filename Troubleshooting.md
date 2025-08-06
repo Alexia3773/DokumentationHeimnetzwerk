@@ -1,10 +1,4 @@
-# Zweiter Versuch, die Datei Troubleshooting.md zu speichern
 
-# Speicherpfad
-file_path = "/mnt/data/Troubleshooting.md"
-
-# Dateiinhalt erneut definieren
-markdown_content = """
 # Troubleshooting – SSH-Key Probleme mit Windows 11
 
 Während der Einrichtung der SSH-Schlüssel zur passwortlosen Authentifizierung traten insbesondere unter **Windows 11** wiederholt Probleme im Zusammenspiel mit den Linux-basierten Systemen auf.
