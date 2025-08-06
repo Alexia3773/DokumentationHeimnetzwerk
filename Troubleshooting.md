@@ -7,8 +7,8 @@ Während der Einrichtung der SSH-Schlüssel zur passwortlosen Authentifizierung 
 
 Beim Übertragen der öffentlichen SSH-Schlüssel (`.pub`) von Windows 11 zu den Linux-Systemen wurden diese **nicht automatisch in die Datei `~/.ssh/authorized_keys`** übernommen. Stattdessen musste der Inhalt manuell eingefügt werden:
 
-```bash
 cat id_rsa.pub >> ~/.ssh/authorized_keys
+
 
 
 ## Problem 2: SSH von Linux zu Windows scheitert bei `PasswordAuthentication no`
@@ -23,7 +23,6 @@ Lösung:
 
     Danach wieder auf no setzen und SSH neu starten:
 
-    ```bash
     Restart-Service sshd
 
 ## Problem 3: Dateinamen beim Speichern unter Windows
