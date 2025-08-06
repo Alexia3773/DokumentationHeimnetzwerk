@@ -1,4 +1,4 @@
-# Netzwerkdokumentation – Projekt 3
+# Netzwerkdokumentation 
 
 **Autorin:** Alexandra Schach  
 **Titel:** Netzwerkdokumentation zu Projekt 3  
