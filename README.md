@@ -49,4 +49,11 @@ Installation der folgenden Betriebssysteme in VirtualBox:
 6. Windows 11  
 
 ### 2. Grundlegende Konfiguration des simulierten Heimnetzes
+Die grundlegende Konfiguration des virtuellen Netzwerks umfasst die systematische Einrichtung sämtlicher beteiligter Komponenten innerhalb einer VirtualBox-Umgebung. Dabei wurden alle virtuellen Maschinen einem gemeinsamen internen Netzwerksegment zugewiesen, das durch die pfSense-Firewall gesteuert wird. Diese dient als zentrales Gateway und stellt den sicheren Zugang zum externen Netzwerk über NAT bereit.
+
+Ziel dieser Konfiguration ist es, eine stabile und isolierte Netzwerkstruktur zu schaffen, die sowohl die Kommunikation zwischen den Systemen als auch den kontrollierten Zugriff auf das Internet ermöglicht. Durch die einheitliche Vergabe von IP-Adressen im Subnetz 192.168.1.0/24 sowie die gezielte Steuerung des Datenverkehrs über pfSense wird ein hohes Maß an Übersichtlichkeit, Sicherheit und Wartbarkeit gewährleistet.
+
+Diese klar definierte Netzwerkarchitektur bildet die Grundlage für weiterführende Sicherheitsmaßnahmen, automatisierte Verwaltung und die feingranulare Analyse des Netzwerkverhaltens innerhalb der virtualisierten Umgebung.
+
+### 3. ![Netzwerktopologie](Topologie.png)
 
